@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 const Inputs = ({step, currentStep, inputList}) => {
   return (
     <AnimatePresence>
-      {step==currentStep&&<motion.div variants={inputsVariants} initial="default" animate="animate" exit="hidden" className="w-[23.5vw] grid grid-cols-2 gap-x-4 items-center justify-center h-full absolute">
+      {step==currentStep&&<motion.div variants={inputsVariants} initial="default" animate="animate" exit="hidden" className="w-[440px] grid grid-cols-2 gap-x-4 items-center justify-center h-full absolute">
       {inputList.map((input) => (
         <Input key={input.name} {...input} />
       ))}

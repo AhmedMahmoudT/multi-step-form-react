@@ -129,13 +129,13 @@ const Form = () => {
           animate={step === 1 ? { opacity: 0 } : { opacity: 1 }}
           onClick={() => setStep(step - 1)}
           disabled={step === 1}
-          className="border border-violet-700 text-violet-700 rounded-lg w-[6vw] py-2 font-semibold hover:bg-violet-600 hover:text-white focus:outline-none focus:bg-violet-600 focus:text-white transition-all"
+          className="border border-violet-700 text-violet-700 rounded-lg w-[125px] py-2 font-semibold hover:bg-violet-600 hover:text-white focus:outline-none focus:bg-violet-600 focus:text-white transition-all"
         >
           Previous
         </motion.button>
         <button
           onClick={handleNext}
-          className="bg-violet-600 text-white rounded-lg w-[6vw] py-2 font-semibold hover:bg-violet-800 focus:outline-none focus:bg-violet-800 border-2 focus:border-violet-900 transition-all"
+          className="bg-violet-600 text-white rounded-lg w-[125px] py-2 font-semibold hover:bg-violet-800 focus:outline-none focus:bg-violet-800 border-2 focus:border-violet-900 transition-all"
           disabled={disableNext}
         >
           {step === 3 ? "Submit" : "Next"}
