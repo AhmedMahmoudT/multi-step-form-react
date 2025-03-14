@@ -3,7 +3,7 @@ import Form from "./components/Form";
 
 const App = () => {
   return (
-    <div className="h-screen flex justify-center bg-slate-50">
+    <div className="h-screen flex justify-center bg-white">
       <div className="scale-[.60] md:scale-75 lg:scale-100 flex flex-col items-center m-auto">
         <motion.div
           initial={{ borderBottom: "2px solid #6d28d9" }}
@@ -11,7 +11,7 @@ const App = () => {
             borderBottom: "2px solid #f8fafc",
             transition: { delay: 2 },
           }}
-          className="z-10 -mt-[70vh] md:-mt-[50vh] lg:-mt-[250px] w-[600px] h-[70vh] md: lg:h-[250px] bg-slate-50 flex place-items-end justify-center overflow-hidden pb-4 mb-6"
+          className="z-10 -mt-[70vh] md:-mt-[50vh] lg:-mt-[250px] w-[600px] h-[70vh] md: lg:h-[250px] bg-white flex place-items-end justify-center overflow-hidden pb-4 mb-6"
         >
           <motion.p
             initial={{ y: 65 }}
