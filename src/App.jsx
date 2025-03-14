@@ -11,7 +11,7 @@ const App = () => {
             borderBottom: "2px solid #f8fafc",
             transition: { delay: 2 },
           }}
-          className="z-10 -mt-[70vh] md:-mt-[50vh] lg:-mt-[200px] w-[600px] h-[70vh] md: lg:h-[250px] bg-slate-50 flex place-items-end justify-center overflow-hidden pb-4 mb-6"
+          className="z-10 -mt-[70vh] md:-mt-[50vh] lg:-mt-[250px] w-[600px] h-[70vh] md: lg:h-[250px] bg-slate-50 flex place-items-end justify-center overflow-hidden pb-4 mb-6"
         >
           <motion.p
             initial={{ y: 65 }}
